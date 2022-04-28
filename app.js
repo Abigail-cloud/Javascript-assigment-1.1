@@ -1,5 +1,8 @@
 /*Create a function with a function name printSum( ) and print the sum of an array.*/
 
+
+/*Add the element in the array and print it out*/
+
 let arr = [2, 1, 3];
 
 function printSum() {
@@ -22,6 +25,11 @@ If a[i]<b[i] then bob is awarded 1 point
 If a[i]===b[i] then none of them gets a point
 
 The comparison points should be the total points a person earned.*/
+
+
+/*Compare alice points on clarity,Originality......
+with bobpoints while looping throughthe array*/
+
 
 function getAliceAndBobPoints(aliceRating, bobRating) {
     let alicePoints = 0;
@@ -46,6 +54,11 @@ document.write('Bob Total Points ' + records[1]);
 
 /*Given an array of integers, calculate the ratio of its elements that are positive, negative and zero. 
 Print the decimal value of each fraction on a new line with places after the decimal.*/
+
+/* find the numbers that are positive i.e greater than zero
+negative are less zero and Zero are 0;
+**Then I will find the ratio : 
+which is the number of occurence of Positive and negative divided by the lenght of the array */
 let lists = [1, 1, 0, -1, -1];
 let positive = 0;
 let negative = 0;
